@@ -1,0 +1,43 @@
+/* estilo para o formulário de agendamento */
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+input[type="text"], input[type="number"], select {
+	margin: 10px;
+	padding: 5px;
+	width: 300px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+/* estilo para o calendário */
+#calendario {
+	margin-top: 50px;
+}
+
+.fc-event {
+	background-color: #2196F3;
+	color: #fff;
+	border-radius: 3px;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+
+.fc-day-grid-event {
+	height: auto;
+	margin-top: 5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agendamento de Consultas</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="marcaçãoconsulta.html">Marcar Consulta</a></li>
+          <li><a href="consultas.html">Consultas Agendadas</a></li>
+          <li><a href="pacientes.html">Lista de Pacientes</a></li>
+          <li><a href="medicos.html">Lista de Médicos</a></li>
+          <li><a href="relatorio.html">Relatórios</a></li>
+        </ul>
+      </nav>
+	<h1>Agendamento de Consultas</h1>
+
+	<form>
+		<label for="nome">Nome do Paciente:</label>
+		<input type="text" id="nome" name="nome" required>
+
+		<label for="numero">Número:</label>
+		<input type="text" id="numero" name="numero" required>
+
+		<label for="endereco">Endereço:</label>
+		<input type="text" id="endereco" name="endereco" required>
+
+		<label for="especialidade">Especialidade da Consulta:</label>
+		<input type="text" id="especialidade" name="especialidade" required>
+
+		<label for="medico">Médico:</label>
+		<input type="text" id="medico" name="medico" required>
+
+		<label for="dia">Dia:</label>
+		<input type="number" id="dia" name="dia" min="1" max="31" required>
+
+		<label for="mes">Mês:</label>
+		<input type="number" id="mes" name="mes" min="1" max="12" required>
+
+		<label for="hora">Hora:</label>
+		<input type="time" id="hora" name="hora" required>
+
+		<button type="button" onclick="agendarConsulta()">Agendar Consulta</button>
+	</form>
+
+	<div id="calendario"></div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

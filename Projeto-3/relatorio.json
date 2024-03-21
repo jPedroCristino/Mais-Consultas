@@ -1,0 +1,53 @@
+{
+    "page": "Relatório",
+    "date_range": {
+      "start_date": "2023-04-01",
+      "end_date": "2023-04-15"
+    },
+    "table_columns": [
+      {
+        "name": "patient_name",
+        "label": "Nome do paciente"
+      },
+      {
+        "name": "doctor_name",
+        "label": "Nome do médico"
+      },
+      {
+        "name": "date",
+        "label": "Data da consulta"
+      },
+      {
+        "name": "time",
+        "label": "Hora da consulta"
+      },
+      {
+        "name": "specialty",
+        "label": "Especialidade do médico"
+      }
+    ],
+    "table_data": [
+      {
+        "patient_name": "José da Silva",
+        "doctor_name": "Dr. João Silva",
+        "date": "2023-04-05",
+        "time": "14:00",
+        "specialty": "Cardiologia"
+      },
+      {
+        "patient_name": "Maria Souza",
+        "doctor_name": "Dra. Ana Oliveira",
+        "date": "2023-04-08",
+        "time": "10:30",
+        "specialty": "Dermatologia"
+      },
+      {
+        "patient_name": "Pedro Rocha",
+        "doctor_name": "Dr. Eduardo Costa",
+        "date": "2023-04-10",
+        "time": "16:45",
+        "specialty": "Ortopedia"
+      }
+    ]
+  }
+  

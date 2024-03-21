@@ -1,0 +1,22 @@
+{
+  "consultas": [
+  {
+    "nome": "Fulano de Tal",
+    "email": "fulano@example.com",
+    "telefone": "(00) 12345-6789",
+    "especialidade": "Cardiologia",
+    "medico": "Dr. João",
+    "data": "2023-04-10",
+    "horario": "10:00"
+  },
+  {
+    "nome": "Ciclano de Tal",
+    "email": "ciclano@example.com",
+    "telefone": "(00) 98765-4321",
+    "especialidade": "Dermatologia",
+    "medico": "Dra. Maria",
+    "data": "2023-04-12",
+    "horario": "15:30"
+  }
+]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Gerenciamento de Consultas Médicas</title>
+    <link rel="stylesheet" href="consultas.css">
+    <script src="cancelarconsultas.js"></script>
+    <script src="marcacaoconsultas.js"></script>
+    <link rel="stylesheet" href="marcaçãoconsulta.html">    
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><img src="Logo.png"</li>
+        <li><a href="marcaçãoconsulta.html">Marcar Consulta</a></li>
+        <li><a href="consultas.html">Consultas Agendadas</a></li>
+        <li><a href="pacientes.html">Lista de Pacientes</a></li>
+        <li><a href="medicos.html">Lista de Médicos</a></li>
+        <li><a href="relatorio.html">Relatórios</a></li>
+      </ul>
+    </nav>
+  <header>
+    <h1>Consultas Agendadas</h1>
+  </header>
+    <main>
+      <h2>Consultas Agendadas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Paciente</th>
+            <th>Médico</th>
+            <th>Data e Hora</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>João Silva</td>
+            <td>Dra. Ana Souza</td>
+            <td>10/04/2023 14:30</td>
+            <td><button id="add-btn" onclick="cancelarConsulta()">Cancelar Consulta</button></td>
+          </tr>
+          <tr>
+            <td>Maria Santos</td>
+            <td>Dr. José Almeida</td>
+            <td>15/04/2023 09:00</td>
+            <td><button>Cancelar Consulta</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <table id="tabela-consultas"></table>
+    </main>
+    <footer>
+      
+    </footer>
+  </body>
+</html>

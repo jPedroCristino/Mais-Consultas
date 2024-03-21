@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Relatórios</title>
+    <link rel="stylesheet" href="relatorio.css">
+  </head>
+  <body>
+    <nav>
+        <ul>
+          <li><img src="Logo.png"</li>
+          <li><a href="marcaçãoconsulta.html">Marcar Consulta</a></li>
+          <li><a href="consultas.html">Consultas Agendadas</a></li>
+          <li><a href="pacientes.html">Lista de Pacientes</a></li>
+          <li><a href="medicos.html">Lista de Médicos</a></li>
+          <li><a href="relatorio.html">Relatórios</a></li>
+        </ul>
+      </nav>
+    <header>
+      <h1>Relatórios</h1>
+    </header>
+    <main>
+      <form id="relatorios-form">
+        <label for="data-inicio">Data Início:</label>
+        <input type="date" id="data-inicio" name="data-inicio" required>
+
+        <label for="data-fim">Data Fim:</label>
+        <input type="date" id="data-fim" name="data-fim" required>
+
+        <button type="submit">Gerar Relatório</button>
+      </form>
+
+      <div id="relatorios-resultado">
+        <!-- aqui serão exibidos os resultados do relatório gerado -->
+      </div>
+    </main>
+    <script src="relatorio.js"></script>
+  </body>
+</html>

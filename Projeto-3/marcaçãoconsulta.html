@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="marcaçãoconsulta.css">
+    <script src="marcacaoconsultas.js"></script>
+    <title>Marcação de Consulta</title>
+  </head>
+  <body>
+    <nav>
+        <ul>
+          <li><img src="Logo.png"></li>
+          <li><a href="marcaçãoconsulta.html">Marcar Consulta</a></li>
+          <li><a href="consultas.html">Consultas Agendadas</a></li>
+          <li><a href="pacientes.html">Lista de Pacientes</a></li>
+          <li><a href="medicos.html">Lista de Médicos</a></li>
+          <li><a href="relatorio.html">Relatórios</a></li>
+        </ul>
+      </nav>
+    <header>
+      <h1>Marcação de Consulta</h1>
+    </header>
+    
+    <main>
+      <form id="form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="phone" required>
+
+        <label for="specialty">Especialidade:</label>
+        <select id="specialty" class="specialty"  required>
+          <option value="">Selecione uma especialidade</option>
+          <option value="Cardiologia">Cardiologia</option>
+          <option value="Dermatologia">Dermatologia</option>
+          <option value="Endocrinologia">Endocrinologia</option>
+          <option value="Ginecologia">Ginecologia</option>
+          <option value="Ortopedia">Ortopedia</option>
+        </select>
+
+        <label for="doctor">Médico:</label>
+        <select id="doctor" required>
+          <option value="">Selecione um médico</option>
+          <option value="Dr. João">Dr. João</option>
+          <option value="Dr. Maria">Dr. Maria</option>
+          <option value="Dr. Pedro">Dr. Pedro</option>
+        </select>
+
+        <label for="data">Data:</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Horário:</label>
+        <select id="time" required>
+          <option value="">Selecione um horário</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+        </select>
+
+        <button type="submit">Marcar Consulta</button>
+      </form>
+    </main>
+
+    <footer>
+  
+    </footer>
+
+    <script src="marcacaoconsultas.js"></script>
+
+  </body>
+</html>
